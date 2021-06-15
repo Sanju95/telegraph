@@ -1,2 +1,8 @@
-@import 'core/reset.css';
-@import 'elements/site-logo.css';
+/*TODO: Mirgate all CSS to SCSS*/
+@import "core/reset.css";
+@import "core/master.css";
+
+@import "elements/site-logo.css";
+@import "elements/articles.css";
+@import "elements/related-posts.css";
+@import "elements/comments.css";
