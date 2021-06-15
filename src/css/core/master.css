@@ -1,0 +1,25 @@
+body {
+	box-sizing: border-box;
+	color: #333;
+	font-family: "Austin News Text Semibold", Georgia, Times, serif;
+	font-size: 100%;
+	line-height: 1.25;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+img,
+p {
+	margin-bottom: 1.5rem;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #ccc;
+}
+
+.push-bottom {
+	margin-bottom: 1.5rem;
+}

@@ -1,0 +1,33 @@
+.related-posts__title {
+	border-bottom: 1px solid #ccc;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	padding-bottom: 1rem;
+}
+
+.related-posts__item {
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-bottom: 8px;
+	padding: 8px 0;
+}
+
+.related-posts__item-thumb {
+	height: 60px;
+	width: 60px;
+}
+
+.related-posts__item-info {
+	flex: 1 0 0;
+}
+.related-posts__item-info h3 {
+	font-weight: 600;
+	margin-bottom: 0.3rem;
+}
+.related-posts__item-info a {
+	color: #333;
+	text-decoration-color: #04777b;
+	-moz-text-decoration-color: #04777b;
+}

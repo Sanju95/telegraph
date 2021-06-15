@@ -1,0 +1,18 @@
+<div class="related-posts__wrap">
+<h2 class="related-posts__title">More stories</h2>
+{{#posts}}
+    {{#each posts}}
+        <div class="related-posts__item">
+            <div class="related-posts__item-thumb">
+                {{!-- TODO: Need alt text --}}   
+                <img src="{{thumbnail}}" alt="alt text" loading=lazy/>
+            </div>
+            <div class="related-posts__item-info">
+                <h3>{{ title }}</h3>
+                {{!-- TODO: Need url --}}   
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    {{/each}}
+{{/posts}}
+</div>

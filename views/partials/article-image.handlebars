@@ -1,0 +1,8 @@
+{{#article}}
+    {{#with post}}
+        <img class="article-image" src="{{ image }}" loading="lazy" alt="Image alt text"/>
+    {{/with }}
+    {{#unless post }}
+        <p>Sorry, No image found!</p>
+    {{/unless }}
+{{/article}}
