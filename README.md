@@ -1,3 +1,7 @@
+# TODO
+1. Unit test
+2. Only display relevent Articles by category
+
 # Front-End Candidate Test
 
 :wave: Welcome to The Telegraph front-end candidate test
