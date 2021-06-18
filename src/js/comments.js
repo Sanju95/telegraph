@@ -1,5 +1,5 @@
 import { COMMENTS_API } from "../constants/api";
-import { APIRequest } from "./api";
+const APIRequest = require("./api");
 
 const Comments = () => {
 	const COMMENTS_HOLDER = document.querySelector("#commentsMain");

@@ -31,6 +31,7 @@
     "postcss": "^8.3.1"
   },
   "devDependencies": {
+    "axios": "^0.21.1",
     "jest": "^27.0.4",
     "nodemon": "^2.0.2",
     "npm-run-all": "^4.1.5",
@@ -39,5 +40,10 @@
     "postcss-import": "^14.0.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^3.3.10"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "verbose": true,
+    "testRegex": "(/tests/.*|\\.(test|spec))\\.(ts|tsx|js)$"
   }
 }

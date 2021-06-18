@@ -1,5 +1,8 @@
-export const APIRequest = async (path) => {
-	const req = await fetch(path);
-	const res = await req.json();
-	return res;
+const axios = require("axios");
+
+const APIRequest = async (path) => {
+	const res = await axios.get(path);
+	return res.data;
 };
+
+module.exports = APIRequest;
